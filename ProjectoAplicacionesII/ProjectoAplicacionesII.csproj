@@ -90,6 +90,15 @@
   <ItemGroup>
     <Content Include="Content\Site.css" />
     <Content Include="Global.asax" />
+    <Content Include="imagenes\imp1.png" />
+    <Content Include="imagenes\imp2.png" />
+    <Content Include="imagenes\imp3.png" />
+    <Content Include="imagenes\mon1.jpg" />
+    <Content Include="imagenes\mon2.jpg" />
+    <Content Include="imagenes\mon3.jpg" />
+    <Content Include="imagenes\ser1.png" />
+    <Content Include="imagenes\ser2.png" />
+    <Content Include="imagenes\ser3.png" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
