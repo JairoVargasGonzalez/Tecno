@@ -99,6 +99,7 @@
     <Content Include="imagenes\ser1.png" />
     <Content Include="imagenes\ser2.png" />
     <Content Include="imagenes\ser3.png" />
+    <Content Include="img1\111.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -117,7 +118,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Vision.cshtml" />
     <Content Include="Views\Home\Productos.cshtml" />
-    <Content Include="Views\Home\Ofertas.cshtml" />
+    <Content Include="Views\Home\Impresoras.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

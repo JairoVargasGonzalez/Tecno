@@ -24,7 +24,7 @@ namespace ProjectoAplicacionesII.Controllers
             return View();
         }
 
-        public ActionResult Ofertas()
+        public ActionResult Impresoras()
         {
             return View();
         }
