@@ -24,10 +24,21 @@ namespace ProjectoAplicacionesII.Controllers
             return View();
         }
 
-        public ActionResult Impresoras()
+        public ActionResult promocionImpresoras()
         {
             return View();
         }
+
+        public ActionResult promocionMonitores()
+        {
+            return View();
+        }
+
+        public ActionResult promocionServidores()
+        {
+            return View();
+        }
+
     }
 
 }

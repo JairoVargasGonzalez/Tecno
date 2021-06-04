@@ -90,16 +90,15 @@
   <ItemGroup>
     <Content Include="Content\Site.css" />
     <Content Include="Global.asax" />
-    <Content Include="imagenes\imp1.png" />
-    <Content Include="imagenes\imp2.png" />
-    <Content Include="imagenes\imp3.png" />
-    <Content Include="imagenes\mon1.jpg" />
-    <Content Include="imagenes\mon2.jpg" />
-    <Content Include="imagenes\mon3.jpg" />
-    <Content Include="imagenes\ser1.png" />
-    <Content Include="imagenes\ser2.png" />
-    <Content Include="imagenes\ser3.png" />
-    <Content Include="img1\111.jpg" />
+    <Content Include="Img\Jimp1.png" />
+    <Content Include="Img\Jimp2.png" />
+    <Content Include="Img\Jimp3.png" />
+    <Content Include="Img\Jmon1.jpg" />
+    <Content Include="Img\Jmon2.jpg" />
+    <Content Include="Img\Jmon3.jpg" />
+    <Content Include="Img\Jser1.png" />
+    <Content Include="Img\Jser2.png" />
+    <Content Include="Img\Jser3.png" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -118,7 +117,9 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Vision.cshtml" />
     <Content Include="Views\Home\Productos.cshtml" />
-    <Content Include="Views\Home\Impresoras.cshtml" />
+    <Content Include="Views\Home\promocionImpresoras.cshtml" />
+    <Content Include="Views\Home\promocionMonitores.cshtml" />
+    <Content Include="Views\Home\promocionServidores.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -128,7 +129,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Img\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
