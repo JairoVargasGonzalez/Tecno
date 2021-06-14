@@ -11,6 +11,34 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
+
+   <style>
+        .container {
+            width: 100%;
+            background: black;
+        }
+
+       .containerfooter {
+       height:300px;
+       width:100%;
+       background:black;
+       padding: 50px;
+       align-content:center;
+       }
+       .link-area  {
+           width: 40px;
+           height: 40px;
+           list-style-type: none;
+           margin: 5px;
+          
+       }
+       h3 {
+       color: white;
+       }
+       p {
+        color: white;
+           }
+    </style>
 </head>
 <body>
 
@@ -36,13 +64,43 @@
 
     <div class="container body-content">
         @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
-        </footer>
     </div>
+    <div class="containerfooter">
+        <div class="footer">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="about us">
+                        <h3>SOBRE NOSOTROS</h3>
+                        <P>Techno hard lleva tecnología a todos los lugares de Colombia.</P>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="link-area">
+                        <h3>PRODUCTOS</h3>
+                        <ul>
+                            <li><a href="~/Views/Home/Productos.cshtml"> Impresoras</a></li>
+                            <li><a href=""> Camaras</a></li>
+                            <li><a href="#"> Routers</a></li>
+                            <li><a href="#"> Monitores</a></li> 
+                        </ul>
+                    </div>
 
-    <!--<script src="~/Scripts/jquery-3.4.1.min.js"></script>-->    
-<!-- <script src="~/Scripts/bootstrap.min.js"></script>-->
+                </div>
+                <div class="col-md-3">
+
+                    <div class="link-area">
+                        <h3>EMPRESA</h3>
+                        <ul>
+                            <li><a href="~/Views/Home/Ofertas.cshtml">Ofertas</a></li>
+                            <li><a href="~/Views/Home/Index.cshtml"> Quienes somos</a></li>
+                            <li><a href="~/Views/Home/Productos.cshtml"> Productos</a></li>
+                        </ul>
+                    </div>
+                  </div>
+                 </div>
+                </div>
+            </div>
+        
+    
 </body>
 </html>
