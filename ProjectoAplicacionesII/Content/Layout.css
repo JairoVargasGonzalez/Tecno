@@ -1,0 +1,32 @@
+﻿body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.container {
+    width: 100%;
+    background: black;
+}
+
+.containerfooter {
+    height: 300px;
+    width: 100%;
+    background: black;
+    padding: 50px;
+    align-content: center;
+}
+
+.link-area {
+    width: 40px;
+    height: 40px;
+    list-style-type: none;
+    margin: 5px;
+}
+
+h3 {
+    color: white;
+}
+
+p {
+    color: white;
+}

@@ -1,0 +1,108 @@
+﻿.top {
+    position: absolute;
+    width: 100%;
+    top: 80px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 90px;
+    text-shadow: 2px, 2px, 2px #8a8a8a;
+    text-indent: 10px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    text-shadow: 2px, 2px, 2px #8a8a8a;
+    font-size: 40px;
+    text-indent: 20px;
+}
+
+.item {
+    height: 600px;
+}
+
+    .item img {
+        object-position: 0 -300px;
+        opacity: 0.7;
+    }
+
+.btn-outline-dark {
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    font-size: 30px;
+    padding: 12px 24px;
+    color: black;
+    border: dotted;
+    border-width: thick;
+    cursor: pointer;
+    border-radius: 5px;
+    display: table;
+}
+
+    .btn-outline-dark a {
+        vertical-align: middle;
+        display: table-cell
+    }
+
+.whitecontainer {
+    background: white;
+    width: 100%;
+    height: 450px;
+    padding: 50px;
+}
+
+.cam.btn-outline-dark {
+    margin: auto;
+}
+
+.coputa.btn-outline-dark {
+    float: right;
+}
+
+.containerquiensomos {
+    background: black;
+    height: 600px;
+    width: 100%;
+}
+
+.parrafo {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    padding: 50px;
+    text-shadow: 4px, 4px, 4px #8a8a8a;
+    text-indent: 20px;
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+    .boton .btn {
+        background: white;
+        border-width: thick;
+    }
+
+.imagen {
+    margin: 50px;
+    width: 100%;
+}
+
+.col-md-4:last-child {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.col-md-7 {
+    padding: 50px;
+}
+
+.vision h2 {
+    color: black;
+}

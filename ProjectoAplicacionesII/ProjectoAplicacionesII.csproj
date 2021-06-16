@@ -88,6 +88,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Index.css" />
+    <Content Include="Content\Layout.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Global.asax" />
     <Content Include="Img\IMPRESORA1.jpg" />
@@ -106,6 +108,9 @@
     <Content Include="Img\MONITOR1.jpg" />
     <Content Include="Img\MONITOR2.jpg" />
     <Content Include="Img\MONITOR3.jpg" />
+    <Content Include="Img\SERV1.jpg" />
+    <Content Include="Img\SERV2.jpg" />
+    <Content Include="Img\SERV3.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
