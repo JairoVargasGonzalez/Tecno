@@ -19,10 +19,22 @@ namespace ProjectoAplicacionesII.Controllers
             return View();
         }
 
-        public ActionResult Productos()
+        public ActionResult productosImpresoras()
         {
             return View();
         }
+
+        public ActionResult productosMonitores()
+        {
+            return View();
+        }
+
+        public ActionResult productosServidores()
+        {
+            return View();
+        }
+
+
 
         public ActionResult promocionImpresoras()
         {
