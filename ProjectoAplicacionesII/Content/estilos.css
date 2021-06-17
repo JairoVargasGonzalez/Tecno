@@ -1,12 +1,7 @@
-﻿    body {
-        font-family: 'Times New Roman', Times, serif;
-    }
-
-
-
+﻿
     .TituloPromociones {
-        color: black;
-        font-size: 40px;
+    color: black;
+    font-size: 40px;
     }
 
     .textoPromociones {
@@ -14,8 +9,7 @@
     }
 
     .row {
-        color: black;
-        font-size: 40px;
+        color: black;        
     }
 
 
@@ -29,25 +23,27 @@
 
     .especificaciones {
         color: #38A0B2;
-        font-size: 30px;
+        font-size: 50px;
     }
 
     .texto1Promociones {
         background: #F2F2F2;
         font-size: 20px;
+        color: black;
     }
 
     .texto2Promociones {
         font-size: 20px;
+        color:black;
     }
 
     .texto3Promociones {
         background: #F2F2F2;
         font-size: 20px;
+        color: black;
     }
 
-    .text41Promociones {
-        font-size: 20px;
+    .texto4Promociones {
+    font-size: 35px;
+    color: black;   
     }
-
-   

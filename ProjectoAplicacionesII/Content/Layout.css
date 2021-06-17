@@ -1,14 +1,10 @@
-﻿body {
-    font-family: 'Times New Roman', Times, serif;
-    background-color: white !important;
-    
-}
-
+﻿
 
 .container {
-    width: 100%;
-    background: black;
+    width: 100%;        
 }
+
+
 
 .containerfooter {
     height: 300px;

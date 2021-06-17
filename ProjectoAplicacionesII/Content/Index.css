@@ -106,3 +106,9 @@ h2 {
 .vision h2 {
     color: black;
 }
+.container-black{
+    background: black;
+    height: 600px;
+    width: 100%;
+
+}

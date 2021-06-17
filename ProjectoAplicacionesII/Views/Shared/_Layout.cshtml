@@ -78,10 +78,9 @@
                     <div class="link-area">
                         <h3>PRODUCTOS</h3>
                         <ul>
-                            <li><a href="~/Views/Home/Productos.cshtml"> Impresoras</a></li>
-                            <li><a href=""> Camaras</a></li>
-                            <li><a href="#"> Routers</a></li>
-                            <li><a href="#"> Monitores</a></li>
+                            <li> @Html.ActionLink("Impresoras", "productosImpresoras", "Home")  </li>
+                            <li> @Html.ActionLink("Monitores", "productosMonitores", "Home")  </li>
+                            <li> @Html.ActionLink("Servidores", "productosServidores", "Home")  </li>
                         </ul>
                     </div>
 
@@ -91,9 +90,9 @@
                     <div class="link-area">
                         <h3>EMPRESA</h3>
                         <ul>
-                            <li><a href="~/Views/Home/Ofertas.cshtml">Ofertas</a></li>
-                            <li><a href="~/Views/Home/Index.cshtml"> Quienes somos</a></li>
-                            <li><a href="~/Views/Home/Productos.cshtml"> Productos</a></li>
+                            <li> @Html.ActionLink("Impresoras", "promocionImpresoras", "Home")  </li>
+                            <li> @Html.ActionLink("Monitores", "promocionMonitores", "Home")  </li>
+                            <li> @Html.ActionLink("Servidores", "promocionServidores", "Home")  </li>
                         </ul>
                     </div>
                 </div>
