@@ -21,7 +21,7 @@ h2 {
 }
 
 .item {
-    height: 600px;
+    height: 550px;
 }
 
     .item img {
@@ -108,7 +108,13 @@ h2 {
 }
 .container-black{
     background: black;
-    height: 600px;
+    height: 550px;
     width: 100%;
 
+}
+
+.container-segundoblack {
+    background: black;
+    height: 600px;
+    width: 100%;
 }
