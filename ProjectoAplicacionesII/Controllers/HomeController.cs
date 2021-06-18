@@ -51,6 +51,11 @@ namespace ProjectoAplicacionesII.Controllers
             return View();
         }
 
+        public ActionResult contactenos()
+        {
+            return View();
+        }
+
     }
 
 }

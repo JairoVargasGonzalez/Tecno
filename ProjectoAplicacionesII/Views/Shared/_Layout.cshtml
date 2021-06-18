@@ -16,6 +16,8 @@
 </head>
 <body>
 
+
+
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -25,11 +27,11 @@
                     <span class="icon-bar"></span>
                 </button>
 
-                @Html.ActionLink("TecnoHard", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                @Html.ActionLink("TecnoHarddw", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    
+
 
                     <li class="dropdown ">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">
@@ -54,10 +56,24 @@
                             <li> @Html.ActionLink("Impresoras", "promocionImpresoras", "Home")  </li>
                             <li> @Html.ActionLink("Monitores", "promocionMonitores", "Home")  </li>
                             <li> @Html.ActionLink("Servidores", "promocionServidores", "Home")  </li>
+
                         </ul>
                     </li>
 
+
+
+
+
+
+
                 </ul>
+
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li> @Html.ActionLink("Contactenos", "contactenos", "Home")  </li>
+                    </ul>
+                </div>
+
             </div>
         </div>
     </div>
@@ -90,7 +106,9 @@
                     <div class="link-area">
                         <h3>EMPRESA</h3>
                         <ul>
-                            <li> @Html.ActionLink("Conocenos", "Index", "Home")  </li>
+                            <li> @Html.ActionLink("Impresoras", "promocionImpresoras", "Home")  </li>
+                            <li> @Html.ActionLink("Monitores", "promocionMonitores", "Home")  </li>
+                            <li> @Html.ActionLink("Servidores", "promocionServidores", "Home")  </li>
                         </ul>
                     </div>
                 </div>
