@@ -1,0 +1,10 @@
+metadata=res://*/Models.Model1.csdl|res://*/Models.Model1.ssdl|res://*/Models.Model1.msl;provider=System.Data.SqlClient;provider connection string="data source=LAPTOP-Q1O92TJV\SQLEXPRESS;initial catalog=TecnoHardw1;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework"
+
+
+
+
+LAPTOP-Q1O92TJV\SQLEXPRESS
+
+
+
+TecnoHardw1Entities

@@ -1,0 +1,50 @@
+﻿@model ProjectoAplicacionesII.Models.Producto
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Detalles</h2>
+
+<div>
+    <h4>Producto</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.nombre_producto)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nombre_producto)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.costo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.costo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.descripcion_producto)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.descripcion_producto)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.categoria.nom_categoria)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.categoria.nom_categoria)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.id_producto }) |
+    @Html.ActionLink("Volver", "Index")
+</p>
