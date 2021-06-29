@@ -12,7 +12,7 @@ namespace ProjectoAplicacionesII.Controllers
 {
     public class ProductoesController : Controller
     {
-        private TecnoHardw1Entities db = new TecnoHardw1Entities();
+        private TecnoHardw1Entities1 db = new TecnoHardw1Entities1();
 
         // GET: Productoes
         public ActionResult Index()
@@ -22,7 +22,7 @@ namespace ProjectoAplicacionesII.Controllers
         }
 
         // GET: Productoes/Details/5
-        public ActionResult Details(string id)
+        public ActionResult Details(int? id)
         {
             if (id == null)
             {
@@ -62,7 +62,7 @@ namespace ProjectoAplicacionesII.Controllers
         }
 
         // GET: Productoes/Edit/5
-        public ActionResult Edit(string id)
+        public ActionResult Edit(int? id)
         {
             if (id == null)
             {
@@ -95,7 +95,7 @@ namespace ProjectoAplicacionesII.Controllers
         }
 
         // GET: Productoes/Delete/5
-        public ActionResult Delete(string id)
+        public ActionResult Delete(int? id)
         {
             if (id == null)
             {
@@ -112,7 +112,7 @@ namespace ProjectoAplicacionesII.Controllers
         // POST: Productoes/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public ActionResult DeleteConfirmed(string id)
+        public ActionResult DeleteConfirmed(int id)
         {
             Producto producto = db.Producto.Find(id);
             db.Producto.Remove(producto);

@@ -12,7 +12,7 @@ namespace ProjectoAplicacionesII.Controllers
 {
     public class categoriasController : Controller
     {
-        private TecnoHardw1Entities db = new TecnoHardw1Entities();
+        private TecnoHardw1Entities1 db = new TecnoHardw1Entities1();
 
         // GET: categorias
         public ActionResult Index()

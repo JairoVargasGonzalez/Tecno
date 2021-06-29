@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-  <EntityContainerMapping StorageEntityContainer="TecnoHardw1ModelStoreContainer" CdmEntityContainer="TecnoHardw1Entities">
+  <EntityContainerMapping StorageEntityContainer="TecnoHardw1ModelStoreContainer" CdmEntityContainer="TecnoHardw1Entities1">
     <EntitySetMapping Name="categoria">
       <EntityTypeMapping TypeName="TecnoHardw1Model.categoria">
         <MappingFragment StoreEntitySet="categoria">
@@ -31,13 +31,14 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <AssociationSetMapping Name="Proveedor_has_Producto" TypeName="TecnoHardw1Model.Proveedor_has_Producto" StoreEntitySet="Proveedor_has_Producto">
-      <EndProperty Name="Producto">
-        <ScalarProperty Name="id_producto" ColumnName="fkpkid_producto" />
-      </EndProperty>
-      <EndProperty Name="Proveedor">
-        <ScalarProperty Name="id_proveedor" ColumnName="fkpkid_proveedor" />
-      </EndProperty>
-    </AssociationSetMapping>
+    <EntitySetMapping Name="Proveedor_has_Producto">
+      <EntityTypeMapping TypeName="TecnoHardw1Model.Proveedor_has_Producto">
+        <MappingFragment StoreEntitySet="Proveedor_has_Producto">
+          <ScalarProperty Name="id_proveedor_producto" ColumnName="id_proveedor_producto" />
+          <ScalarProperty Name="fkpkid_proveedor" ColumnName="fkpkid_proveedor" />
+          <ScalarProperty Name="fkpkid_producto" ColumnName="fkpkid_producto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
   </EntityContainerMapping>
 </Mapping>

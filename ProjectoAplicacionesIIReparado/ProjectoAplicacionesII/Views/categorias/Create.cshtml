@@ -4,7 +4,7 @@
     ViewBag.Title = "Create";
 }
 
-<h2>Crear</h2>
+<h2>Insertar</h2>
 
 
 @using (Html.BeginForm()) 
@@ -16,14 +16,6 @@
         <hr />
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
         <div class="form-group">
-            @Html.LabelFor(model => model.id_categoria, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.id_categoria, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.id_categoria, "", new { @class = "text-danger" })
-            </div>
-        </div>
-
-        <div class="form-group">
             @Html.LabelFor(model => model.nom_categoria, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
                 @Html.EditorFor(model => model.nom_categoria, new { htmlAttributes = new { @class = "form-control" } })
@@ -33,7 +25,7 @@
 
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Crear" class="btn btn-default" />
+                <input type="submit" value="Insertar" class="btn btn-default" />
             </div>
         </div>
     </div>

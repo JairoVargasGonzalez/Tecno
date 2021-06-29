@@ -4,12 +4,14 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="41c0be436ab14866a5e180ac80bbf2fa" Name="Diagram1">
-        <EntityTypeShape EntityType="TecnoHardw1Model.categoria" Width="1.5" PointX="0.625" PointY="2.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="TecnoHardw1Model.Producto" Width="2.25" PointX="4" PointY="1.625" IsExpanded="true" />
-        <EntityTypeShape EntityType="TecnoHardw1Model.Proveedor" Width="1.5" PointX="8.375" PointY="2" IsExpanded="true" />
+      <Diagram DiagramId="4914865d39874f519bce604e77bd6301" Name="Diagram1">
+        <EntityTypeShape EntityType="TecnoHardw1Model.categoria" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TecnoHardw1Model.Producto" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="TecnoHardw1Model.Proveedor" Width="1.5" PointX="7.625" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TecnoHardw1Model.Proveedor_has_Producto" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
         <AssociationConnector Association="TecnoHardw1Model.producto_categoria" ManuallyRouted="false" />
-        <AssociationConnector Association="TecnoHardw1Model.Proveedor_has_Producto" ManuallyRouted="false" />
+        <AssociationConnector Association="TecnoHardw1Model.producto_proveedor_producto" ManuallyRouted="false" />
+        <AssociationConnector Association="TecnoHardw1Model.proveedor_proveedor_producto" ManuallyRouted="false" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

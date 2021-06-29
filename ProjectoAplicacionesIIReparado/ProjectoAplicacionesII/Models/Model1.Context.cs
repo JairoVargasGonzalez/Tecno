@@ -13,10 +13,10 @@ namespace ProjectoAplicacionesII.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class TecnoHardw1Entities : DbContext
+    public partial class TecnoHardw1Entities1 : DbContext
     {
-        public TecnoHardw1Entities()
-            : base("name=TecnoHardw1Entities")
+        public TecnoHardw1Entities1()
+            : base("name=TecnoHardw1Entities1")
         {
         }
     
@@ -28,5 +28,6 @@ namespace ProjectoAplicacionesII.Models
         public virtual DbSet<categoria> categoria { get; set; }
         public virtual DbSet<Producto> Producto { get; set; }
         public virtual DbSet<Proveedor> Proveedor { get; set; }
+        public virtual DbSet<Proveedor_has_Producto> Proveedor_has_Producto { get; set; }
     }
 }

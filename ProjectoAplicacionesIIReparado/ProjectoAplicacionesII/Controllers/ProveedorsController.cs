@@ -12,7 +12,7 @@ namespace ProjectoAplicacionesII.Controllers
 {
     public class ProveedorsController : Controller
     {
-        private TecnoHardw1Entities db = new TecnoHardw1Entities();
+        private TecnoHardw1Entities1 db = new TecnoHardw1Entities1();
 
         // GET: Proveedors
         public ActionResult Index()
@@ -21,7 +21,7 @@ namespace ProjectoAplicacionesII.Controllers
         }
 
         // GET: Proveedors/Details/5
-        public ActionResult Details(string id)
+        public ActionResult Details(int? id)
         {
             if (id == null)
             {
@@ -59,7 +59,7 @@ namespace ProjectoAplicacionesII.Controllers
         }
 
         // GET: Proveedors/Edit/5
-        public ActionResult Edit(string id)
+        public ActionResult Edit(int? id)
         {
             if (id == null)
             {
@@ -90,7 +90,7 @@ namespace ProjectoAplicacionesII.Controllers
         }
 
         // GET: Proveedors/Delete/5
-        public ActionResult Delete(string id)
+        public ActionResult Delete(int? id)
         {
             if (id == null)
             {
@@ -107,7 +107,7 @@ namespace ProjectoAplicacionesII.Controllers
         // POST: Proveedors/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public ActionResult DeleteConfirmed(string id)
+        public ActionResult DeleteConfirmed(int id)
         {
             Proveedor proveedor = db.Proveedor.Find(id);
             db.Proveedor.Remove(proveedor);

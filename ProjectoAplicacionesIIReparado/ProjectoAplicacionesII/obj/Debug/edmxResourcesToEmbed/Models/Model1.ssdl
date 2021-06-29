@@ -4,14 +4,14 @@
     <Key>
       <PropertyRef Name="id_categoria" />
     </Key>
-    <Property Name="id_categoria" Type="int" Nullable="false" />
+    <Property Name="id_categoria" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="nom_categoria" Type="varchar" MaxLength="70" Nullable="false" />
   </EntityType>
   <EntityType Name="Producto">
     <Key>
       <PropertyRef Name="id_producto" />
     </Key>
-    <Property Name="id_producto" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="id_producto" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="fk_id_categoria" Type="int" Nullable="false" />
     <Property Name="nombre_producto" Type="varchar" MaxLength="150" Nullable="false" />
     <Property Name="costo" Type="float" Nullable="false" />
@@ -21,7 +21,7 @@
     <Key>
       <PropertyRef Name="id_proveedor" />
     </Key>
-    <Property Name="id_proveedor" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="id_proveedor" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="nombre" Type="varchar" MaxLength="100" Nullable="false" />
     <Property Name="direccion" Type="varchar" MaxLength="100" Nullable="false" />
     <Property Name="correo" Type="varchar" MaxLength="150" Nullable="false" />
@@ -29,11 +29,13 @@
   </EntityType>
   <EntityType Name="Proveedor_has_Producto">
     <Key>
+      <PropertyRef Name="id_proveedor_producto" />
       <PropertyRef Name="fkpkid_proveedor" />
       <PropertyRef Name="fkpkid_producto" />
     </Key>
-    <Property Name="fkpkid_proveedor" Type="varchar" MaxLength="5" Nullable="false" />
-    <Property Name="fkpkid_producto" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="id_proveedor_producto" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="fkpkid_proveedor" Type="int" Nullable="false" />
+    <Property Name="fkpkid_producto" Type="int" Nullable="false" />
   </EntityType>
   <Association Name="producto_categoria">
     <End Role="categoria" Type="Self.categoria" Multiplicity="1" />

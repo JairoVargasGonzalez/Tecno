@@ -17,10 +17,10 @@ namespace ProjectoAplicacionesII.Models
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public Producto()
         {
-            this.Proveedor = new HashSet<Proveedor>();
+            this.Proveedor_has_Producto = new HashSet<Proveedor_has_Producto>();
         }
     
-        public string id_producto { get; set; }
+        public int id_producto { get; set; }
         public int fk_id_categoria { get; set; }
         public string nombre_producto { get; set; }
         public double costo { get; set; }
@@ -28,6 +28,6 @@ namespace ProjectoAplicacionesII.Models
     
         public virtual categoria categoria { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Proveedor> Proveedor { get; set; }
+        public virtual ICollection<Proveedor_has_Producto> Proveedor_has_Producto { get; set; }
     }
 }

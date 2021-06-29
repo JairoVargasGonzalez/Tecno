@@ -6,8 +6,9 @@
     <title>@ViewBag.Title - My ASP.NET Application</title>
     <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
     <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <script src="~/Scripts/modernizr-2.8.3.js"></script>
+    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
@@ -65,9 +66,10 @@
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li> @Html.ActionLink("Contactenos", "contactenos", "Home")  </li>
-                        <li> @Html.ActionLink("Categorias", "index", "categorias")  </li>
-                        <li> @Html.ActionLink("Productos", "index", "Productoes")  </li>
-                        <li> @Html.ActionLink("Proveedores", "index", "Proveedors")  </li>
+                        <li> @Html.ActionLink("Administrar Categorias", "index", "categorias")  </li>
+                        <li> @Html.ActionLink("Administrar Productos", "index", "Productoes")  </li>
+                        <li> @Html.ActionLink("Administrar Proveedores", "index", "Proveedors")  </li>
+                        <li> @Html.ActionLink("Administrar Proveedores Productos", "index", "Proveedor_has_producto")  </li>
                     </ul>
                 </div>
 
@@ -104,6 +106,7 @@
                         <h3>EMPRESA</h3>
                         <ul>
                             <li> @Html.ActionLink("Visitanos", "contactenos", "Home")  </li>
+                            <li> <a href="https://api.whatsapp.com/send?phone=573107608452"><img src="~/Img/whatsapp.png" width="40" height="40" /></a></li>
                          
                         </ul>
                     </div>
