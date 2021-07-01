@@ -59,9 +59,18 @@
         
     }
 
-table {
-    border: 1px solid;
-    border-collapse: separate;
-    border-spacing: 15px 10px;
+    table {
+        border: 1px solid;
+        border-collapse: separate;
+        border-spacing: 15px 10px;
     
-}
+    }
+
+
+    button {
+        height: 40px;
+        width: 40px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px; 
+        
+    }

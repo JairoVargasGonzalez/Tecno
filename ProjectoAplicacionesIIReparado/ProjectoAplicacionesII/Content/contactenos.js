@@ -3,11 +3,12 @@
 
 
     
-    function comprar(mensaje) {
-        alert("Se añadio al carrito de compras");        
-        window.location = 'contactenos';
-        $("#opinion").attr(mensaje);
-    }
+function comprar(id) {
+    var title = $('#nameTitleProduct' + id).html();
+    localStorage.setItem('nameTitleProduct', title);
+    alert("Solicita tu producto");
+    window.location = 'contactenos';        
+}
 
     
 

@@ -99,6 +99,7 @@
     <Content Include="Content\contactenos.js" />
     <Content Include="Content\Index.css" />
     <Content Include="Content\Layout.css" />
+    <Content Include="Content\mensaje.js" />
     <Content Include="Content\Site.css" />
     <Content Include="Global.asax" />
     <Content Include="Img\IMPRESORA1.jpg" />
